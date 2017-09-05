@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 const FilteredFruitList = ({fruit, filter}) => {
+  // debugger
 
   const fruitList = !filter ? fruit : fruit.filter(i => i.fruit_type === filter);
 

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 
 const Filter = props => {
+  // debugger
+
   return (
     <select onChange={props.handleChange} defaultValue='all'>
     <option value='all'>All</option>
