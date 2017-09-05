@@ -4,9 +4,9 @@ class Filter extends Component {
   constructor() {
     super();
 
-    this.state = {
-      filters: []
-    };
+    // this.state = {
+    //   filters: []
+    // };
   }
 
   componentWillMount() {
